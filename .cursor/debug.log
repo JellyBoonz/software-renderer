@@ -1,0 +1,470 @@
+{"location":"main.cpp:147","message":"file_load entry","data":"","timestamp":1768491358}
+{"location":"main.cpp:153","message":"allocating framebuffer","data":"","timestamp":1768491358}
+{"location":"main.cpp:157","message":"allocating zbuffer","data":"","timestamp":1768491358}
+{"location":"main.cpp:146","message":"loading obj file","data":"","timestamp":1768491358}
+{"location":"main.cpp:149","message":"getting vertices","data":"","timestamp":1768491358}
+{"location":"main.cpp:152","message":"getting faces","data":"","timestamp":1768491358}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768491906}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768491906}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768491906}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768491906}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768491906}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768491906}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768491906}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768491906}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768491906}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768491906}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768491906}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768491906}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768491906}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492000}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492000}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492000}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492000}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492000}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492026}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492026}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492026}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492026}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492026}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492042}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492042}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492042}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492042}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492042}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492145}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492145}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492145}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492145}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492145}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492145}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492145}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492145}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492145}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492145}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492145}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492145}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492145}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492145}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492145}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492145}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492177}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492177}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492177}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492177}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492177}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492177}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492177}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492177}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492178}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492178}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492178}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492178}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492178}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492178}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492178}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492178}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492178}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492178}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492178}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492178}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492178}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492238}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492238}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492238}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492238}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492238}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492238}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492238}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492312}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492312}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492312}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492312}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492312}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492312}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492312}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492312}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492312}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492312}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492312}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492312}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492312}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492312}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492312}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492312}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492337}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492337}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492337}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492337}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492337}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492337}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492337}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492337}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492337}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492337}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492337}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492337}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492337}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492337}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492337}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492337}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492378}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492378}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492378}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492378}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492378}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492378}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492378}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492378}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492378}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492378}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492378}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492378}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492378}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492378}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492378}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492378}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492378}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492378}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492382}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492382}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492382}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492382}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492382}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492382}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492382}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492382}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492382}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492382}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492382}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492382}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492382}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492382}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492382}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492382}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492382}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492382}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492384}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492384}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492384}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492384}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492384}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492384}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492384}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492384}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492384}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492384}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492384}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492384}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492384}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492384}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492384}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492384}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492384}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492384}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492389}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492389}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492389}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492389}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492389}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492389}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492389}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492389}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492389}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492389}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492389}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492389}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492389}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492389}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492389}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492389}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492389}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492389}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492393}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492393}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492393}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492393}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492393}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492393}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492393}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492393}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492393}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492393}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492393}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492393}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492393}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492393}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492393}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492393}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492393}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492393}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492410}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492410}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492410}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492410}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492410}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492410}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492410}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492410}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492410}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492410}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492410}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492410}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492410}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492410}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492410}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492410}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492410}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492410}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492429}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492429}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492429}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492429}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492429}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492429}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492429}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492429}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492429}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492429}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492429}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492429}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492429}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492429}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492429}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492429}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492429}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492429}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492437}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492437}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492437}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492437}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492437}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492437}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492437}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492437}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492437}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492437}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492437}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492437}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492437}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492437}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492437}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492437}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492437}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492437}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492470}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492470}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492470}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492470}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492470}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492470}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492470}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492470}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492470}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492470}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492470}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492470}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492470}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492470}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492470}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492470}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492470}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492470}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492474}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492474}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492474}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492474}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492474}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492474}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492474}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492474}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492474}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492474}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492474}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492474}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492474}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492474}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492474}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492474}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492474}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492474}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492478}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492478}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492478}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492478}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492478}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492478}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492478}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492478}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492478}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492478}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492478}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492478}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492478}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492478}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492478}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492478}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492478}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492478}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492480}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492480}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492480}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492480}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492480}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492480}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492480}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492480}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492480}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492480}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492480}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492480}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492480}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492480}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492480}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492480}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492480}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492480}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492499}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492499}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492499}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492499}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492499}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492499}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492499}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492499}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492499}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492499}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492499}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492499}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492499}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492499}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492499}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492499}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492499}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492499}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492536}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492536}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492536}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492536}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492536}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492536}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492536}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492536}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492536}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492536}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492536}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492536}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492536}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492536}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492536}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492536}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492536}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492536}
+{"location":"main.cpp:174","message":"file_load entry","timestamp":1768492540}
+{"location":"main.cpp:177","message":"allocating framebuffer","timestamp":1768492540}
+{"location":"main.cpp:180","message":"allocating zbuffer","timestamp":1768492540}
+{"location":"main.cpp:183","message":"loading obj file","timestamp":1768492540}
+{"location":"main.cpp:187","message":"getting vertices/faces","timestamp":1768492540}
+{"location":"main.cpp:192","message":"starting triangle loop","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 0","timestamp":1768492540}
+{"location":"main.cpp:104","message":"first triangle starting","timestamp":1768492540}
+{"location":"main.cpp:138","message":"first triangle complete","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 1000","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 2000","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 3000","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 4000","timestamp":1768492540}
+{"location":"main.cpp:197","message":"processing face 5000","timestamp":1768492540}
+{"location":"main.cpp:211","message":"triangle loop complete","timestamp":1768492540}
+{"location":"main.cpp:203","message":"writing framebuffer","timestamp":1768492540}
+{"location":"main.cpp:210","message":"calling visualize_zbuffer","timestamp":1768492540}
+{"location":"main.cpp:137","message":"visualize_zbuffer entry","timestamp":1768492540}
+{"location":"main.cpp:144","message":"finding min/max depth","timestamp":1768492540}
+{"location":"main.cpp:161","message":"allocating zbuffer_image","timestamp":1768492540}
+{"location":"main.cpp:164","message":"zbuffer_image allocated","timestamp":1768492540}
+{"location":"main.cpp:175","message":"writing zbuffer file","timestamp":1768492540}
+{"location":"main.cpp:180","message":"visualize_zbuffer complete","timestamp":1768492540}
