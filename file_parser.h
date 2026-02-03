@@ -9,6 +9,13 @@
 #include "geometry.h"
 #include "point.h"
 
+struct FaceVertex {
+    int v_idx;  // vertex index
+    int n_idx;  // normal index (0 if none)
+};
+
+using Face = std::vector<FaceVertex>;
+
 class file_parser {
 public:
     file_parser() = default;
@@ -21,6 +28,8 @@ public:
             std::cout << "File could not be opened" << "\n";
             return false;
         }
+
+        std::cout << "file opened" << std::endl;
 
         std::string line;
 
@@ -36,18 +45,25 @@ public:
                     vertices.push_back(vec3{ x, y, z });
                 }
             }
+            else if (line.substr(0, 3) == "vn ") {
+                float x, y, z;
+                std::istringstream stream(line.substr(3));
+
+                if (stream >> x >> y >> z) {
+                    normals.push_back(normalize(vec3{ x, y, z }));
+                }
+            }
             else if (line.substr(0, 2) == "f ") {
                 std::istringstream stream(line.substr(2));
-                std::string token;
-                std::vector<int> face;
+                Face face;
+                int v, t, n;
+                char trash;
 
-                while (stream >> token) {
-                    std::istringstream token_stream(token);
-
-                    int index;
-                    token_stream >> index;
-
-                    face.push_back(index);
+                while (stream >> v >> trash >> t >> trash >> n) {
+                    FaceVertex fv;
+                    fv.v_idx = v;
+                    fv.n_idx = n;
+                    face.push_back(fv);
                 }
 
                 faces.push_back(face);
@@ -57,18 +73,22 @@ public:
         return true;
     }
 
+    const std::vector<Face>& get_faces() {
+        return faces;
+    }
+    const std::vector<vec3>& get_normals() {
+        return normals;
+    }
     const std::vector<vec3>& get_vertices() {
         return vertices;
     }
 
-    const std::vector<std::vector<int>>& get_faces() {
-        return faces;
-    }
 
 
 private:
+    std::vector<Face> faces;
+    std::vector<vec3> normals;
     std::vector<vec3> vertices;
-    std::vector<std::vector<int>> faces;
 };
 
 #endif

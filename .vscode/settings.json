@@ -39,6 +39,8 @@
         "cstdarg": "cpp",
         "ctime": "cpp",
         "print": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "cwctype": "cpp",
+        "optional": "cpp"
     }
 }

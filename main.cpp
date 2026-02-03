@@ -29,22 +29,45 @@ constexpr Color yellow = { 255, 200, 0 };
 
 struct Shader : Pipeline::IShader {
     std::vector<vec3> vertices;
+    std::vector<vec3> normals;
     Color color;
-    vec3 tri[3];
+    vec3 tri_pos[3];
+    vec3 tri_norm[3];
     vec3 eye;
     vec3 lightPos;
 
     Shader(const std::vector<vec3>& vertices) : vertices(vertices) {}
 
-    vec4 vertex(const vec3& v, const mat<4, 4>& modelview, const mat<4, 4>& perspective) const override {
-        return perspective * modelview * vec4{ v.x, v.y, v.z, 1.0 };
+    Pipeline::VertexOutput vertex(const vec3& v, const vec3& n, const mat<4, 4>& modelview, const mat<4, 4>& perspective, const mat<4, 4>& normalMatrix) override {
+        // Transform vertex to clip space
+        vec4 clipPos = perspective * modelview * vec4{ v.x, v.y, v.z, 1.0 };
+
+        // Transform normal by inverse transpose
+        vec4 normalTransformed = normalMatrix * vec4{ n.x, n.y, n.z, 0.0 };
+        vec3 normalVec = normalize(vec3{ normalTransformed.x, normalTransformed.y, normalTransformed.z });
+
+        // Return all outputs
+        Pipeline::VertexOutput output;
+        output.clipPos = clipPos;
+        output.worldPos = v;  // Store world-space position (after model rotation, before ModelView)
+        output.normal = normalVec;
+        return output;
     }
 
-    std::pair<bool, Color> fragment(const vec3 bar) const override {
+    void setup_triangle(const vec3 pos[3], const vec3 norm[3]) override {
+        tri_pos[0] = pos[0];
+        tri_pos[1] = pos[1];
+        tri_pos[2] = pos[2];
+        tri_norm[0] = norm[0];
+        tri_norm[1] = norm[1];
+        tri_norm[2] = norm[2];
+    }
+
+    std::pair<bool, Color> fragment(const vec3& bar) const override {
         Color baseColor = this->color;
 
-        vec3 normal = normalize(cross(tri[1] - tri[0], tri[2] - tri[0]));
-        vec3 fragPos = bar[0] * tri[0] + bar[1] * tri[1] + bar[2] * tri[2];
+        vec3 normal = bar[0] * tri_norm[0] + bar[1] * tri_norm[1] + bar[2] * tri_norm[2];
+        vec3 fragPos = bar[0] * tri_pos[0] + bar[1] * tri_pos[1] + bar[2] * tri_pos[2];
 
         vec3 lightDir = normalize(lightPos - fragPos);
         vec3 viewDir = normalize(eye - fragPos);
@@ -143,9 +166,10 @@ void realtime_render() {
 
     // Load model once
     file_parser fp;
-    fp.load("./test.obj");
+    fp.load("./test2.obj");
     std::vector<vec3> vertices = fp.get_vertices();
-    std::vector<std::vector<int>> faces = fp.get_faces();
+    std::vector<vec3> normals = fp.get_normals();
+    std::vector<Face> faces = fp.get_faces();
 
     std::cout << "Controls:" << std::endl;
     std::cout << "  Left/Right Arrow: Rotate model" << std::endl;
@@ -222,9 +246,30 @@ void realtime_render() {
 
         // Render all faces
         for (size_t f = 0; f < faces.size(); f++) {
-            vec3 v0 = vertices[faces[f][0] - 1];
-            vec3 v1 = vertices[faces[f][1] - 1];
-            vec3 v2 = vertices[faces[f][2] - 1];
+            const Face& face = faces[f];
+
+            vec3 v0 = vertices[face[0].v_idx - 1];
+            vec3 v1 = vertices[face[1].v_idx - 1];
+            vec3 v2 = vertices[face[2].v_idx - 1];
+
+            bool hasVertexNormals =
+                !normals.empty() &&
+                face[0].n_idx > 0 && face[1].n_idx > 0 && face[2].n_idx > 0 &&
+                face[0].n_idx <= (int)normals.size() &&
+                face[1].n_idx <= (int)normals.size() &&
+                face[2].n_idx <= (int)normals.size();
+
+            vec3 n0, n1, n2;
+            if (hasVertexNormals) {
+                n0 = normals[face[0].n_idx - 1];
+                n1 = normals[face[1].n_idx - 1];
+                n2 = normals[face[2].n_idx - 1];
+            }
+            else {
+                // Fallback: geometric face normal
+                vec3 faceNormal = normalize(cross(v1 - v0, v2 - v0));
+                n0 = n1 = n2 = faceNormal;
+            }
 
             // Apply rotation around Y axis
             float cosR = cos(rotation);
@@ -235,11 +280,12 @@ void realtime_render() {
             v0 = rotate_y(v0);
             v1 = rotate_y(v1);
             v2 = rotate_y(v2);
+            n0 = normalize(rotate_y(n0));
+            n1 = normalize(rotate_y(n1));
+            n2 = normalize(rotate_y(n2));
 
-            auto clip = pipeline.transform_triangle(shader, v0, v1, v2);
-            shader.tri[0] = v0;
-            shader.tri[1] = v1;
-            shader.tri[2] = v2;
+            // Transform triangle (vertex shader handles ModelView/Perspective and normal transformation)
+            auto clip = pipeline.transform_triangle(shader, v0, v1, v2, n0, n1, n2);
             pipeline.rasterize(clip, shader);
         }
 
@@ -293,21 +339,35 @@ void file_load() {
     shader.lightPos = vec3{ 0, 0.5, 1 };
 
     std::vector<vec3> vertices = fp.get_vertices();
-    std::vector<std::vector<int>> faces = fp.get_faces();
+    std::vector<vec3> normals = fp.get_normals();
+    std::vector<Face> faces = fp.get_faces();
 
     for (size_t f = 0; f < faces.size(); f++) {
         shader.color = Color{ 150, 150, 150 };
 
-        vec3 v0 = fp.get_vertices()[faces[f][0] - 1];
-        vec3 v1 = fp.get_vertices()[faces[f][1] - 1];
-        vec3 v2 = fp.get_vertices()[faces[f][2] - 1];
+        vec3 v0 = vertices[faces[f][0].v_idx - 1];
+        vec3 v1 = vertices[faces[f][1].v_idx - 1];
+        vec3 v2 = vertices[faces[f][2].v_idx - 1];
 
-        auto clip = pipeline.transform_triangle(shader, v0, v1, v2);
+        // Get normals (or compute face normal if not available)
+        vec3 n0, n1, n2;
+        bool hasVertexNormals = !normals.empty() &&
+            faces[f][0].n_idx > 0 && faces[f][1].n_idx > 0 && faces[f][2].n_idx > 0 &&
+            faces[f][0].n_idx <= (int)normals.size() &&
+            faces[f][1].n_idx <= (int)normals.size() &&
+            faces[f][2].n_idx <= (int)normals.size();
 
-        shader.tri[0] = v0;
-        shader.tri[1] = v1;
-        shader.tri[2] = v2;
+        if (hasVertexNormals) {
+            n0 = normals[faces[f][0].n_idx - 1];
+            n1 = normals[faces[f][1].n_idx - 1];
+            n2 = normals[faces[f][2].n_idx - 1];
+        }
+        else {
+            vec3 faceNormal = normalize(cross(v1 - v0, v2 - v0));
+            n0 = n1 = n2 = faceNormal;
+        }
 
+        auto clip = pipeline.transform_triangle(shader, v0, v1, v2, n0, n1, n2);
         pipeline.rasterize(clip, shader);
     }
 

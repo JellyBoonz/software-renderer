@@ -22,7 +22,7 @@ void Pipeline::init_zbuffer(const int width, const int height) {
     this->zbuffer.resize(width * height, -1000.);
 }
 
-void Pipeline::rasterize(const Triangle& clip, const IShader& shader) {
+void Pipeline::rasterize(const Triangle& clip, IShader& shader) {
     vec4 ndc[3] = { clip[0] / clip[0].w, clip[1] / clip[1].w, clip[2] / clip[2].w };                // normalized device coordinates
     vec2 screen[3] = { (this->Viewport * ndc[0]).xy(), (this->Viewport * ndc[1]).xy(), (this->Viewport * ndc[2]).xy() }; // screen coordinates
 
